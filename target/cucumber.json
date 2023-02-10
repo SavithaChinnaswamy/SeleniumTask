@@ -1,0 +1,680 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To validate the login page with invalid username and password",
+        "description": "",
+        "id": "to-validate-the-functionality-of-ordering-food-by-user;to-validate-the-login-page-with-invalid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2115299300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "LoginClass.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17575683600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the URL of Bisto bites application",
+            "match": {
+              "location": "LoginClass.to_launch_the_URL_of_Bisto_bites_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3046724400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click on Account button",
+            "match": {
+              "location": "LoginClass.to_click_on_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155040000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Pass the invalid username in phone textfield",
+            "match": {
+              "location": "LoginClass.to_Pass_the_invalid_username_in_phone_textfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118218200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the invalid password in password textfield",
+            "match": {
+              "location": "LoginClass.to_pass_the_invalid_password_in_password_textfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1676211500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the Login button",
+            "match": {
+              "location": "LoginClass.to_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000178600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To print error message",
+            "match": {
+              "location": "LoginClass.to_print_error_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3889309000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To close the browser",
+            "match": {
+              "location": "LoginClass.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of ordering food by user",
+    "description": "",
+    "id": "to-validate-the-functionality-of-ordering-food-by-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenario1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate user can click Dosa option and can check the order availability time",
+        "description": "",
+        "id": "to-validate-the-functionality-of-ordering-food-by-user;to-validate-user-can-click-dosa-option-and-can-check-the-order-availability-time",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1351129200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "LoginClass.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18022078900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the URL of Bisto bites application",
+            "match": {
+              "location": "LoginClass.to_launch_the_URL_of_Bisto_bites_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7869412000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click on Menu button",
+            "match": {
+              "location": "DosaClass.to_click_on_Menu_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3079552800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To select the dropdown labeled as Dosa",
+            "match": {
+              "location": "DosaClass.to_select_the_dropdown_labeled_as_Dosa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6008412100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click on Masala Dosa",
+            "match": {
+              "location": "DosaClass.to_click_on_Masala_Dosa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48168700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To check the Dosa Availability time",
+            "match": {
+              "location": "DosaClass.to_check_the_Dosa_Availability_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837606400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "DosaClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of ordering food by user",
+    "description": "",
+    "id": "to-validate-the-functionality-of-ordering-food-by-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenario2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate the registration form without passing the confirm password field",
+        "description": "",
+        "id": "to-validate-the-functionality-of-ordering-food-by-user;to-validate-the-registration-form-without-passing-the-confirm-password-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1403006400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "LoginClass.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21578064200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the URL of Bisto bites application",
+            "match": {
+              "location": "LoginClass.to_launch_the_URL_of_Bisto_bites_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3328119400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click on Account button",
+            "match": {
+              "location": "LoginClass.to_click_on_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115217000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the username in name field",
+            "match": {
+              "location": "RegisterClass.to_pass_the_username_in_name_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84632400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass the email in email textfield",
+            "match": {
+              "location": "RegisterClass.to_pass_the_email_in_email_textfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110319400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the mobileno in Phone textfield",
+            "match": {
+              "location": "RegisterClass.to_pass_the_mobileno_in_Phone_textfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3116895400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass the password in password textfield",
+            "match": {
+              "location": "RegisterClass.to_pass_the_password_in_password_textfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85326200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the Register button",
+            "match": {
+              "location": "RegisterClass.to_click_the_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To display the Alert message",
+            "match": {
+              "location": "RegisterClass.to_display_the_Alert_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3875261500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To close the browser",
+            "match": {
+              "location": "LoginClass.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of ordering food by user",
+    "description": "",
+    "id": "to-validate-the-functionality-of-ordering-food-by-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenario3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate whether the user can search the coke and its price",
+        "description": "",
+        "id": "to-validate-the-functionality-of-ordering-food-by-user;to-validate-whether-the-user-can-search-the-coke-and-its-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1322847000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "LoginClass.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16490838100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the URL of Bisto bites application",
+            "match": {
+              "location": "LoginClass.to_launch_the_URL_of_Bisto_bites_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3069159400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click on search icon",
+            "match": {
+              "location": "CokeClass.to_click_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086014600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the food item name into the search field",
+            "match": {
+              "location": "CokeClass.to_pass_the_food_item_name_into_the_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198525000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click on enter button",
+            "match": {
+              "location": "CokeClass.to_click_on_enter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9809092300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click on food item that user has searched",
+            "match": {
+              "location": "CokeClass.to_click_on_food_item_that_user_has_searched()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 442200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To check the cost of food item",
+            "match": {
+              "location": "CokeClass.to_check_the_cost_of_food_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3815646300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the browser",
+            "match": {
+              "location": "LoginClass.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of ordering food by user",
+    "description": "",
+    "id": "to-validate-the-functionality-of-ordering-food-by-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenario4.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate user can select Spanish Omelet and can check the order availability time",
+        "description": "",
+        "id": "to-validate-the-functionality-of-ordering-food-by-user;to-validate-user-can-select-spanish-omelet-and-can-check-the-order-availability-time",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2479885200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "LoginClass.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16177070600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the URL of Bisto bites application",
+            "match": {
+              "location": "LoginClass.to_launch_the_URL_of_Bisto_bites_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84984300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click on search button",
+            "match": {
+              "location": "OmeletClass.to_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99158000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the Spanish Omelet food item as the input to search field",
+            "match": {
+              "location": "OmeletClass.to_pass_the_Spanish_Omelet_food_item_as_the_input_to_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 589700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click Enter button",
+            "match": {
+              "location": "OmeletClass.to_click_Enter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5599852300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click on food item that user searched",
+            "match": {
+              "location": "OmeletClass.to_click_on_food_item_that_user_searched()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65718400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To check the cost probability of food item",
+            "match": {
+              "location": "OmeletClass.to_check_the_cost_probability_of_food_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3773503100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the browser",
+            "match": {
+              "location": "LoginClass.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of ordering food by user",
+    "description": "",
+    "id": "to-validate-the-functionality-of-ordering-food-by-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenario5.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Validate whether user can navigate to our story page",
+        "description": "",
+        "id": "to-validate-the-functionality-of-ordering-food-by-user;to-validate-whether-user-can-navigate-to-our-story-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1306142300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "LoginClass.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21912060100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the URL of Bisto bites application",
+            "match": {
+              "location": "LoginClass.to_launch_the_URL_of_Bisto_bites_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2338901100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click on Our Story option",
+            "match": {
+              "location": "StoryClass.to_click_on_Our_Story_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51752900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To Print the story content",
+            "match": {
+              "location": "StoryClass.to_Print_the_story_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 859574500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the entire browser",
+            "match": {
+              "location": "StoryClass.close_the_entire_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of ordering food by user",
+    "description": "",
+    "id": "to-validate-the-functionality-of-ordering-food-by-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenario6.feature",
+    "tags": []
+  }
+]
